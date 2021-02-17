@@ -33,29 +33,18 @@
     <script>
 	    const background = new Image();
 			background.onload = () => {
-//	    Promise.all([
-//    fetch('colorectal_pcpis.cyjs').then(res => res.json()),
-//    fetch('styles.json').then(res => res.json())
-//  ]).then(([{elements}, [{style}]]) => {
-//    cytoscape({
-//      container: document.getElementById('cy'),
-//      elements,
-//      style,
 	    var json = $.getJSON('colorectal_pcpis.cyjs')
    .done(function(data){
      var cy = cytoscape({
        container: document.getElementById('cy'),
        elements: data.elements,
        style: fetch('styles_test.json').then(res => res.json()).then(json => json.style),
-	    layout: {
-	      name: 'preset',
-      }
-	      
+	    layout: { name: 'preset',}
   });
 	    });		
-				const bottomLayer = cy.cyCanvas({
-        zIndex: -1
-      });
+	const bottomLayer = cy.cyCanvas({ 
+		zIndex: -1 
+	});
       const canvas = bottomLayer.getCanvas();
       const ctx = canvas.getContext("2d");
     
@@ -65,7 +54,8 @@
         bottomLayer.setTransform(ctx);
     
         ctx.save();
-			}
+      })
+	    }
 	    background.src = "cell_template.png"
     </script>
 </body>

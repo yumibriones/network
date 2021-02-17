@@ -13,7 +13,7 @@
         width: 100%;
         height: 100%;
         position: absolute;
-        top: 100px;
+        top: 75px;
         left: 0px;
     }
 </style>
@@ -35,7 +35,10 @@
     cytoscape({
       container: document.getElementById('cy'),
       elements,
-      style
+      style,
+      layout: {
+    name: 'circle'
+}
   });
 	    });		  
     </script>

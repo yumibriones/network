@@ -30,6 +30,8 @@
 	</p>
     <div id="cy"></div>
     <script>
+	    const background = new Image();
+			background.onload = () => {
 //	    Promise.all([
 //    fetch('colorectal_pcpis.cyjs').then(res => res.json()),
 //    fetch('styles.json').then(res => res.json())
@@ -50,6 +52,7 @@
 	      
   });
 	    });		
+			}
 	    background.src = "cell_template.png"
     </script>
 </body>

@@ -53,6 +53,18 @@
 	      
   });
 	    });		
+				const bottomLayer = cy.cyCanvas({
+        zIndex: -1
+      });
+      const canvas = bottomLayer.getCanvas();
+      const ctx = canvas.getContext("2d");
+    
+      cy.on("render cyCanvas.resize", evt => {
+        bottomLayer.resetTransform(ctx);
+        bottomLayer.clear(ctx);
+        bottomLayer.setTransform(ctx);
+    
+        ctx.save();
 			}
 	    background.src = "cell_template.png"
     </script>

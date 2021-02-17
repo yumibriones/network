@@ -5,7 +5,7 @@
 <head>
     <title>M. charantia in colorectal cancer</title>
     <script src="/network/cytoscape.min.js"></script>
-	<script src="colorectal_pcpis.json"></script>
+	<script src="colorectal_pcpis.cyjs"></script>
 	<script src="styles.json"></script>
 </head>
 
@@ -30,7 +30,7 @@
     <div id="cy"></div>
     <script>
 	    Promise.all([
-    fetch('colorectal_pcpis.json').then(res => res.json()),
+    fetch('colorectal_pcpis.cyjs').then(res => res.json()),
     fetch('styles.json').then(res => res.json())
   ]).then(([{elements}, [{style}]]) => {
     cytoscape({

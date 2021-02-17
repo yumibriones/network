@@ -410,8 +410,8 @@
       "width" : 2.0,
       "font-family" : "Dialog.plain",
       "font-weight" : "normal",
-      "target-arrow-color" : "rgb(64,64,64)"
-	  "curve-style" : "bezier"
+      "target-arrow-color" : "rgb(64,64,64)",
+	    "curve-style" : "bezier"
     }
   }, {
     "selector" : "edge[EFFECT = 'up-regulates quantity']",

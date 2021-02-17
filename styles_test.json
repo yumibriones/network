@@ -51,7 +51,7 @@
   }, {
     "selector" : "node[LOGP > 10.65]",
     "css" : {
-      "background-opacity" : 0.00392156862745098
+      "background-opacity" : 1.0
     }
   }, {
     "selector" : "node[LOGP = 10.65]",
@@ -61,7 +61,7 @@
   }, {
     "selector" : "node[LOGP > -3.73][LOGP < 10.65]",
     "css" : {
-      "background-opacity" : "mapData(LOGP,-3.73,10.65,0.52,0.752)"
+      "background-opacity" : "mapData(LOGP,-3.73,10.65,0.20392156862745098,1.0)"
     }
   }, {
     "selector" : "node[LOGP = -3.73]",

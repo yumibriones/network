@@ -28,14 +28,20 @@
 	</p>
     <div id="cy"></div>
     <script>
-	    Promise.all([
-    fetch('colorectal_pcpis.cyjs').then(res => res.json()),
-    fetch('styles.json').then(res => res.json())
-  ]).then(([{elements}, [{style}]]) => {
-    cytoscape({
-      container: document.getElementById('cy'),
-      elements,
-      style,
+//	    Promise.all([
+//    fetch('colorectal_pcpis.cyjs').then(res => res.json()),
+//    fetch('styles.json').then(res => res.json())
+//  ]).then(([{elements}, [{style}]]) => {
+//    cytoscape({
+//      container: document.getElementById('cy'),
+//      elements,
+//      style,
+	    var json = $.getJSON('colorectal_pcpis.cyjs')
+   .done(function(data){
+     var cy = cytoscape({
+       container: document.getElementById('cy'),
+       elements: data.elements,
+       style: fetch('styles-edited.json').then(res => res.json()).then(json => json.style)
       layout: {
 	      name: 'preset',
       }

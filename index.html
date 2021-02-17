@@ -35,7 +35,7 @@
 			background.onload = () => {
 	    var json = $.getJSON('colorectal_pcpis.cyjs')
    .done(function(data){
-     var cy = cytoscape({
+     const cy = cytoscape({
        container: document.getElementById('cy'),
        elements: data.elements,
        style: fetch('styles_test.json').then(res => res.json()).then(json => json.style),

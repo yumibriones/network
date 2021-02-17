@@ -1,5 +1,4 @@
-{
-    "nodes" : [ {
+[ {
       "data" : {
         "id" : "1154",
         "LOCATION" : "",
@@ -6092,4 +6091,3 @@
       },
       "selected" : false
     } ]
-  }

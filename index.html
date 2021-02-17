@@ -30,8 +30,8 @@
     <div id="cy"></div>
     <script>
 	    Promise.all([
-    fetch('network/colorectal_pcpis.json').then(res => res.json()),
-    fetch('network/styles.json').then(res => res.json())
+    fetch('/network/colorectal_pcpis.json').then(res => res.json()),
+    fetch('/network/styles.json').then(res => res.json())
   ]).then(([{elements}, [{style}]]) => {
     cytoscape({
       container: document.getElementById('cy'),

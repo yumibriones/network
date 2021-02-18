@@ -32,6 +32,10 @@
 	<p style="font-size:10px; text-align:center">
 		Yumi Briones | Nina Rosario L. Rojas | Fabian Antonio M. Dayrit | Armando Jerome H. De Jesus Jr. | Alexander T. Young
 	</p>
+	<p style="font-size:8px; text-align:center">
+	<br>
+	<i>Scroll down (using the scrollbar) to see legend. Use toolbar on the left to pan and zoom.</i>
+	</p>
     <div id="cy"></div>
     <script>
 	    const background = new Image();
@@ -44,6 +48,8 @@
 			   style: fetch('styles_test.json').then(res => res.json()).then(json => json.style),
 				layout: {
 				  name: 'preset',
+				  zoom: 0.15,
+					pan: {x: 100, y: 110 }
 			  }
 	      
   });
@@ -63,9 +69,9 @@
         ctx.drawImage(background, -300, -680);
 		
 		// Draw text that follows the model
-        ctx.font = "50px Montserrat Semibold";
+        ctx.font = "40px Montserrat Semibold";
         ctx.fillStyle = "white";
-        ctx.fillText("MITOCHONDRION", 2800, -60);
+        ctx.fillText("MITOCHONDRION", 2850, -60);
 		
 		ctx.font = "50px Montserrat Semibold";
         ctx.fillStyle = "white";
@@ -89,5 +95,9 @@
 			};
 	    background.src = "cell_test_7800.png"
     </script>
+	
+	<div id = "legend">
+		<img src="legend1.png" style="width:65%;margin-top:50%;margin-left:20%;margin-right:25%" />
+	</div>
 </body>
 </html>

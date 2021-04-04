@@ -40,12 +40,12 @@
     <script>
 	    const background = new Image();
 			background.onload = () => {
-				var json = $.getJSON('colorectal_pcpis_03-04-2021.cyjs')
+				var json = $.getJSON('colorectal_pcpis_03-05-2021.cyjs')
 		   .done(function(data){
 			 var cy = cytoscape({
 			   container: document.getElementById('cy'),
 			   elements: data.elements,
-			   style: fetch('styles_03-04-2021.json').then(res => res.json()).then(json => json.style),
+			   style: fetch('styles_03-05-2021.json').then(res => res.json()).then(json => json.style),
 				layout: {
 				  name: 'preset',
 				  zoom: 0.15,

@@ -258,7 +258,7 @@
         "TYPEB" : "",
         "SMILESA" : "C1=CC2=C(C=C1O)C(=CN2)CCN",
         "CLASSB" : "",
-        "CLASSA" : "amino acid",
+        "CLASSA" : "other",
         "BIOAVAILABILITY" : 0.55,
         "TYPEA" : "phytochemical",
         "LOGP" : 1.33,

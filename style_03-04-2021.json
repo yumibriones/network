@@ -1,199 +1,740 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<vizmap documentVersion="3.0" id="VizMap-2021_04_03-23_44">
-    <visualStyle name="recolored">
-        <network>
-            <visualProperty name="NETWORK_HEIGHT" default="400.0"/>
-            <visualProperty name="NETWORK_DEPTH" default="0.0"/>
-            <visualProperty name="NETWORK_EDGE_SELECTION" default="true"/>
-            <visualProperty name="NETWORK_CENTER_Y_LOCATION" default="0.0"/>
-            <visualProperty name="NETWORK_BACKGROUND_PAINT" default="#292D34"/>
-            <visualProperty name="NETWORK_NODE_SELECTION" default="true"/>
-            <visualProperty name="NETWORK_TITLE" default=""/>
-            <visualProperty name="NETWORK_SCALE_FACTOR" default="1.0"/>
-            <visualProperty name="NETWORK_SIZE" default="550.0"/>
-            <visualProperty name="NETWORK_CENTER_X_LOCATION" default="0.0"/>
-            <visualProperty name="NETWORK_CENTER_Z_LOCATION" default="0.0"/>
-            <visualProperty name="NETWORK_WIDTH" default="550.0"/>
-        </network>
-        <node>
-            <dependency name="nodeCustomGraphicsSizeSync" value="true"/>
-            <dependency name="nodeSizeLocked" value="true"/>
-            <visualProperty name="NODE_LABEL_FONT_SIZE" default="25"/>
-            <visualProperty name="NODE_CUSTOMPAINT_5" default="DefaultVisualizableVisualProperty(id=NODE_CUSTOMPAINT_5, name=Node Custom Paint 5)"/>
-            <visualProperty name="NODE_CUSTOMPAINT_9" default="DefaultVisualizableVisualProperty(id=NODE_CUSTOMPAINT_9, name=Node Custom Paint 9)"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_4" default="C,C,c,0.00,0.00"/>
-            <visualProperty name="NODE_PAINT" default="#1E90FF"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_2" default="50.0"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_1" default="C,C,c,0.00,0.00"/>
-            <visualProperty name="NODE_LABEL_POSITION" default="C,C,c,0.00,0.00"/>
-            <visualProperty name="NODE_CUSTOMPAINT_1" default="DefaultVisualizableVisualProperty(id=NODE_CUSTOMPAINT_1, name=Node Custom Paint 1)"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_6" default="50.0"/>
-            <visualProperty name="NODE_DEPTH" default="0.0"/>
-            <visualProperty name="NODE_SELECTED_PAINT" default="#FFFF00"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_8" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_9" default="C,C,c,0.00,0.00"/>
-            <visualProperty name="NODE_BORDER_TRANSPARENCY" default="255"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_7" default="50.0"/>
-            <visualProperty name="NODE_X_LOCATION" default="0.0"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_2" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],">
-                <passthroughMapping attributeType="string" attributeName="chemViz Passthrough"/>
-            </visualProperty>
-            <visualProperty name="NODE_LABEL_COLOR" default="#F4F4F4"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_1" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
-            <visualProperty name="NODE_TRANSPARENCY" default="255">
-                <continuousMapping attributeType="float" attributeName="LOGP">
-                    <continuousMappingPoint lesserValue="1" greaterValue="52" equalValue="52" attrValue="-3.73"/>
-                    <continuousMappingPoint lesserValue="257" greaterValue="1" equalValue="257" attrValue="10.65"/>
-                </continuousMapping>
-            </visualProperty>
-            <visualProperty name="NODE_LABEL_FONT_FACE" default="SansSerif.plain,plain,12"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_8" default="C,C,c,0.00,0.00"/>
-            <visualProperty name="NODE_TOOLTIP" default=""/>
-            <visualProperty name="NODE_BORDER_WIDTH" default="20.0"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_8" default="50.0"/>
-            <visualProperty name="NODE_SIZE" default="125.0"/>
-            <visualProperty name="NODE_CUSTOMPAINT_6" default="DefaultVisualizableVisualProperty(id=NODE_CUSTOMPAINT_6, name=Node Custom Paint 6)"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_2" default="C,C,c,0.00,0.00"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_5" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
-            <visualProperty name="NODE_HEIGHT" default="35.0"/>
-            <visualProperty name="NODE_LABEL" default="">
-                <passthroughMapping attributeType="string" attributeName="name"/>
-            </visualProperty>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_3" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
-            <visualProperty name="NODE_FILL_COLOR" default="#F25B68">
-                <discreteMapping attributeType="string" attributeName="CLASSA">
-                    <discreteMappingEntry value="#0C7683" attributeValue="triterpenoid"/>
-                    <discreteMappingEntry value="#058C42" attributeValue="aglycone"/>
-                    <discreteMappingEntry value="#AAAAAA" attributeValue="other"/>
-                    <discreteMappingEntry value="#FE8D8F" attributeValue="amino acid"/>
-                    <discreteMappingEntry value="#FF595E" attributeValue="phenolic acid"/>
-                    <discreteMappingEntry value="#72DEFF" attributeValue="fatty acid"/>
-                    <discreteMappingEntry value="#3C5A14" attributeValue="triterpene saponin"/>
-                    <discreteMappingEntry value="#AAD922" attributeValue="cucurbitane-type triterpenoid"/>
-                    <discreteMappingEntry value="#FFCC00" attributeValue="flavonoid"/>
-                    <discreteMappingEntry value="#B491C8" attributeValue="glycoside"/>
-                    <discreteMappingEntry value="#B3EFB2" attributeValue="triterpene glycoside"/>
-                </discreteMapping>
-            </visualProperty>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_9" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
-            <visualProperty name="NODE_SELECTED" default="false"/>
-            <visualProperty name="NODE_CUSTOMPAINT_7" default="DefaultVisualizableVisualProperty(id=NODE_CUSTOMPAINT_7, name=Node Custom Paint 7)"/>
-            <visualProperty name="NODE_CUSTOMPAINT_8" default="DefaultVisualizableVisualProperty(id=NODE_CUSTOMPAINT_8, name=Node Custom Paint 8)"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_5" default="C,C,c,0.00,0.00"/>
-            <visualProperty name="NODE_WIDTH" default="25.0"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_3" default="50.0"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_7" default="C,C,c,0.00,0.00"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_9" default="50.0"/>
-            <visualProperty name="NODE_LABEL_WIDTH" default="200.0"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_6" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_1" default="50.0"/>
-            <visualProperty name="NODE_CUSTOMPAINT_2" default="DefaultVisualizableVisualProperty(id=NODE_CUSTOMPAINT_2, name=Node Custom Paint 2)"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_6" default="C,C,c,0.00,0.00"/>
-            <visualProperty name="NODE_BORDER_STROKE" default="SOLID"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_4" default="50.0"/>
-            <visualProperty name="NODE_CUSTOMPAINT_3" default="DefaultVisualizableVisualProperty(id=NODE_CUSTOMPAINT_3, name=Node Custom Paint 3)"/>
-            <visualProperty name="NODE_BORDER_PAINT" default="#CCCCCC">
-                <discreteMapping attributeType="float" attributeName="BIOAVAILABILITY">
-                    <discreteMappingEntry value="#FAB733" attributeValue="0.56"/>
-                    <discreteMappingEntry value="#FF4E11" attributeValue="0.17"/>
-                    <discreteMappingEntry value="#69B34C" attributeValue="0.85"/>
-                    <discreteMappingEntry value="#FF8E15" attributeValue="0.55"/>
-                    <discreteMappingEntry value="#FF0D0D" attributeValue="0.11"/>
-                </discreteMapping>
-            </visualProperty>
-            <visualProperty name="NODE_LABEL_TRANSPARENCY" default="255"/>
-            <visualProperty name="NODE_SHAPE" default="ELLIPSE">
-                <discreteMapping attributeType="string" attributeName="GI_ABSORPTION">
-                    <discreteMappingEntry value="ELLIPSE" attributeValue="High"/>
-                    <discreteMappingEntry value="RECTANGLE" attributeValue="Low"/>
-                </discreteMapping>
-            </visualProperty>
-            <visualProperty name="COMPOUND_NODE_PADDING" default="10.0"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_7" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_4" default="org.cytoscape.ding.customgraphics.NullCustomGraphics,0,[ Remove Graphics ],"/>
-            <visualProperty name="NODE_Y_LOCATION" default="0.0"/>
-            <visualProperty name="NODE_NESTED_NETWORK_IMAGE_VISIBLE" default="true"/>
-            <visualProperty name="NODE_CUSTOMPAINT_4" default="DefaultVisualizableVisualProperty(id=NODE_CUSTOMPAINT_4, name=Node Custom Paint 4)"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_POSITION_3" default="C,C,c,0.00,0.00"/>
-            <visualProperty name="NODE_CUSTOMGRAPHICS_SIZE_5" default="50.0"/>
-            <visualProperty name="NODE_VISIBLE" default="true"/>
-            <visualProperty name="NODE_Z_LOCATION" default="0.0"/>
-            <visualProperty name="COMPOUND_NODE_SHAPE" default="ROUND_RECTANGLE"/>
-        </node>
-        <edge>
-            <dependency name="arrowColorMatchesEdge" value="true"/>
-            <visualProperty name="EDGE_LABEL_WIDTH" default="200.0"/>
-            <visualProperty name="EDGE_PAINT" default="#323232"/>
-            <visualProperty name="EDGE_TOOLTIP" default=""/>
-            <visualProperty name="EDGE_LABEL" default=""/>
-            <visualProperty name="EDGE_LABEL_FONT_FACE" default="Dialog.plain,plain,10"/>
-            <visualProperty name="EDGE_TARGET_ARROW_UNSELECTED_PAINT" default="#000000"/>
-            <visualProperty name="EDGE_LABEL_TRANSPARENCY" default="255"/>
-            <visualProperty name="EDGE_TARGET_ARROW_SELECTED_PAINT" default="#FFFF00"/>
-            <visualProperty name="EDGE_BEND"/>
-            <visualProperty name="EDGE_SOURCE_ARROW_SIZE" default="6.0"/>
-            <visualProperty name="EDGE_TARGET_ARROW_SIZE" default="6.0"/>
-            <visualProperty name="EDGE_SELECTED_PAINT" default="#FF0000"/>
-            <visualProperty name="EDGE_UNSELECTED_PAINT" default="#404040">
-                <discreteMapping attributeType="string" attributeName="EFFECT">
-                    <discreteMappingEntry value="#2BA84A" attributeValue="up-regulates quantity"/>
-                    <discreteMappingEntry value="#E34293" attributeValue="form complex"/>
-                    <discreteMappingEntry value="#DB4C40" attributeValue="down-regulates activity"/>
-                    <discreteMappingEntry value="#DB4C40" attributeValue="down-regulates quantity by destabilization"/>
-                    <discreteMappingEntry value="#DB4C40" attributeValue="down-regulates quantity by repression"/>
-                    <discreteMappingEntry value="#2BA84A" attributeValue="up-regulates activity"/>
-                    <discreteMappingEntry value="#2BA84A" attributeValue="up-regulates quantity by stabilization"/>
-                    <discreteMappingEntry value="#2BA84A" attributeValue="up-regulates"/>
-                    <discreteMappingEntry value="#DB4C40" attributeValue="down-regulates"/>
-                    <discreteMappingEntry value="#BCF4F5" attributeValue="predicted"/>
-                    <discreteMappingEntry value="#999999" attributeValue="unknown"/>
-                    <discreteMappingEntry value="#2BA84A" attributeValue="up-regulates quantity by expression"/>
-                </discreteMapping>
-            </visualProperty>
-            <visualProperty name="EDGE_LABEL_FONT_SIZE" default="10"/>
-            <visualProperty name="EDGE_VISIBLE" default="true"/>
-            <visualProperty name="EDGE_LABEL_COLOR" default="#000000"/>
-            <visualProperty name="EDGE_SELECTED" default="false"/>
-            <visualProperty name="EDGE_STROKE_SELECTED_PAINT" default="#FF0000"/>
-            <visualProperty name="EDGE_SOURCE_ARROW_UNSELECTED_PAINT" default="#000000"/>
-            <visualProperty name="EDGE_TARGET_ARROW_SHAPE" default="ARROW">
-                <discreteMapping attributeType="string" attributeName="EFFECT">
-                    <discreteMappingEntry value="ARROW" attributeValue="up-regulates quantity"/>
-                    <discreteMappingEntry value="NONE" attributeValue="form complex"/>
-                    <discreteMappingEntry value="T" attributeValue="down-regulates activity"/>
-                    <discreteMappingEntry value="T" attributeValue="down-regulates quantity by destabilization"/>
-                    <discreteMappingEntry value="T" attributeValue="down-regulates quantity by repression"/>
-                    <discreteMappingEntry value="ARROW" attributeValue="up-regulates activity"/>
-                    <discreteMappingEntry value="ARROW" attributeValue="up-regulates"/>
-                    <discreteMappingEntry value="T" attributeValue="down-regulates"/>
-                    <discreteMappingEntry value="SQUARE" attributeValue="unknown"/>
-                    <discreteMappingEntry value="ARROW" attributeValue="up-regulates quantity by expression"/>
-                </discreteMapping>
-            </visualProperty>
-            <visualProperty name="EDGE_TRANSPARENCY" default="255"/>
-            <visualProperty name="EDGE_CURVED" default="true"/>
-            <visualProperty name="EDGE_WIDTH" default="2.0">
-                <continuousMapping attributeType="float" attributeName="PROBABILITY">
-                    <continuousMappingPoint lesserValue="1.0" greaterValue="0.785246895580757" equalValue="0.785246895580757" attrValue="0.023832743"/>
-                    <continuousMappingPoint lesserValue="5.365853658536586" greaterValue="1.0" equalValue="5.365853658536586" attrValue="1.0"/>
-                </continuousMapping>
-            </visualProperty>
-            <visualProperty name="EDGE_LINE_TYPE" default="SOLID"/>
-            <visualProperty name="EDGE_SOURCE_ARROW_SELECTED_PAINT" default="#FFFF00"/>
-            <visualProperty name="EDGE_SOURCE_ARROW_SHAPE" default="NONE"/>
-            <visualProperty name="EDGE_STROKE_UNSELECTED_PAINT" default="#848484">
-                <discreteMapping attributeType="string" attributeName="EFFECT">
-                    <discreteMappingEntry value="#00FF00" attributeValue="up-regulates quantity"/>
-                    <discreteMappingEntry value="#FF00FF" attributeValue="form complex"/>
-                    <discreteMappingEntry value="#FF0000" attributeValue="down-regulates activity"/>
-                    <discreteMappingEntry value="#FF0000" attributeValue="down-regulates quantity by destabilization"/>
-                    <discreteMappingEntry value="#FF0000" attributeValue="down-regulates quantity by repression"/>
-                    <discreteMappingEntry value="#00FF00" attributeValue="up-regulates activity"/>
-                    <discreteMappingEntry value="#00FF00" attributeValue="up-regulates"/>
-                    <discreteMappingEntry value="#FF0000" attributeValue="down-regulates"/>
-                    <discreteMappingEntry value="#00FF00" attributeValue="up-regulates quantity by expression"/>
-                </discreteMapping>
-            </visualProperty>
-        </edge>
-    </visualStyle>
-</vizmap>
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.6.0",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "recolored",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "font-size" : 25,
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "border-opacity" : 1.0,
+      "color" : "rgb(244,244,244)",
+      "background-opacity" : 1.0,
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
+      "border-width" : 20.0,
+      "height" : 125.0,
+      "background-color" : "rgb(242,91,104)",
+      "width" : 125.0,
+      "border-color" : "rgb(204,204,204)",
+      "text-opacity" : 1.0,
+      "shape" : "ellipse",
+      "content" : "data(name)"
+    }
+  }, {
+    "selector" : "node[BIOAVAILABILITY = 0.56]",
+    "css" : {
+      "border-color" : "rgb(250,183,51)"
+    }
+  }, {
+    "selector" : "node[BIOAVAILABILITY = 0.17]",
+    "css" : {
+      "border-color" : "rgb(255,78,17)"
+    }
+  }, {
+    "selector" : "node[BIOAVAILABILITY = 0.85]",
+    "css" : {
+      "border-color" : "rgb(105,179,76)"
+    }
+  }, {
+    "selector" : "node[BIOAVAILABILITY = 0.55]",
+    "css" : {
+      "border-color" : "rgb(255,142,21)"
+    }
+  }, {
+    "selector" : "node[BIOAVAILABILITY = 0.11]",
+    "css" : {
+      "border-color" : "rgb(255,13,13)"
+    }
+  }, {
+    "selector" : "node[CLASSA = 'triterpenoid']",
+    "css" : {
+      "background-color" : "rgb(12,118,131)"
+    }
+  }, {
+    "selector" : "node[CLASSA = 'aglycone']",
+    "css" : {
+      "background-color" : "rgb(5,140,66)"
+    }
+  }, {
+    "selector" : "node[CLASSA = 'other']",
+    "css" : {
+      "background-color" : "rgb(170,170,170)"
+    }
+  }, {
+    "selector" : "node[CLASSA = 'amino acid']",
+    "css" : {
+      "background-color" : "rgb(254,141,143)"
+    }
+  }, {
+    "selector" : "node[CLASSA = 'phenolic acid']",
+    "css" : {
+      "background-color" : "rgb(255,89,94)"
+    }
+  }, {
+    "selector" : "node[CLASSA = 'fatty acid']",
+    "css" : {
+      "background-color" : "rgb(114,222,255)"
+    }
+  }, {
+    "selector" : "node[CLASSA = 'triterpene saponin']",
+    "css" : {
+      "background-color" : "rgb(60,90,20)"
+    }
+  }, {
+    "selector" : "node[CLASSA = 'cucurbitane-type triterpenoid']",
+    "css" : {
+      "background-color" : "rgb(170,217,34)"
+    }
+  }, {
+    "selector" : "node[CLASSA = 'flavonoid']",
+    "css" : {
+      "background-color" : "rgb(255,204,0)"
+    }
+  }, {
+    "selector" : "node[CLASSA = 'glycoside']",
+    "css" : {
+      "background-color" : "rgb(180,145,200)"
+    }
+  }, {
+    "selector" : "node[CLASSA = 'triterpene glycoside']",
+    "css" : {
+      "background-color" : "rgb(179,239,178)"
+    }
+  }, {
+    "selector" : "node[GI_ABSORPTION = 'High']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[GI_ABSORPTION = 'Low']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[LOGP > 10.65]",
+    "css" : {
+      "background-opacity" : 0.00392156862745098
+    }
+  }, {
+    "selector" : "node[LOGP = 10.65]",
+    "css" : {
+      "background-opacity" : 1.0
+    }
+  }, {
+    "selector" : "node[LOGP > -3.73][LOGP < 10.65]",
+    "css" : {
+      "background-opacity" : "mapData(LOGP,-3.73,10.65,0.52,0.752)"
+    }
+  }, {
+    "selector" : "node[LOGP = -3.73]",
+    "css" : {
+      "background-opacity" : 0.20392156862745098
+    }
+  }, {
+    "selector" : "node[LOGP < -3.73]",
+    "css" : {
+      "background-opacity" : 0.00392156862745098
+    }
+  }, {
+    "selector" : "node[ id = '119' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '120' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '121' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '122' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '124' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '125' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '127' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '129' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '131' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '132' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '142' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '146' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '148' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '165' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '172' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '174' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '106' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '107' ]",
+    "css" : {
+      "background-color" : "rgb(255,102,102)"
+    }
+  }, {
+    "selector" : "node[ id = '1647' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1658' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1664' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1665' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1667' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1672' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1679' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1686' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1694' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1696' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1698' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1619' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1622' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1626' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1629' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1630' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1631' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1632' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1633' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1635' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1636' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1639' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1641' ]",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1647' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1658' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1664' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1665' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1667' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1672' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1679' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1686' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1694' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1696' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1698' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1619' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1622' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1626' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1629' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1630' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1631' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1632' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1633' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1635' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1636' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1639' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[ id = '1641' ]",
+    "css" : {
+      "font-size" : 30,
+      "color" : "rgb(244,244,244)",
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "content" : "",
+      "font-family" : "Dialog.plain",
+      "font-weight" : "normal",
+      "target-arrow-color" : "rgb(64,64,64)",
+      "text-opacity" : 1.0,
+      "font-size" : 10,
+      "color" : "rgb(0,0,0)",
+      "source-arrow-color" : "rgb(64,64,64)",
+      "target-arrow-shape" : "triangle",
+      "opacity" : 1.0,
+      "width" : 2.0,
+      "line-style" : "solid",
+      "source-arrow-shape" : "none",
+      "line-color" : "rgb(64,64,64)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates quantity']",
+    "css" : {
+      "line-color" : "rgb(43,168,74)",
+      "target-arrow-color" : "rgb(43,168,74)",
+      "source-arrow-color" : "rgb(43,168,74)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'form complex']",
+    "css" : {
+      "line-color" : "rgb(227,66,147)",
+      "target-arrow-color" : "rgb(227,66,147)",
+      "source-arrow-color" : "rgb(227,66,147)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates activity']",
+    "css" : {
+      "line-color" : "rgb(219,76,64)",
+      "target-arrow-color" : "rgb(219,76,64)",
+      "source-arrow-color" : "rgb(219,76,64)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates quantity by destabilization']",
+    "css" : {
+      "line-color" : "rgb(219,76,64)",
+      "target-arrow-color" : "rgb(219,76,64)",
+      "source-arrow-color" : "rgb(219,76,64)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates quantity by repression']",
+    "css" : {
+      "line-color" : "rgb(219,76,64)",
+      "target-arrow-color" : "rgb(219,76,64)",
+      "source-arrow-color" : "rgb(219,76,64)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates activity']",
+    "css" : {
+      "line-color" : "rgb(43,168,74)",
+      "target-arrow-color" : "rgb(43,168,74)",
+      "source-arrow-color" : "rgb(43,168,74)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates quantity by stabilization']",
+    "css" : {
+      "line-color" : "rgb(43,168,74)",
+      "target-arrow-color" : "rgb(43,168,74)",
+      "source-arrow-color" : "rgb(43,168,74)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates']",
+    "css" : {
+      "line-color" : "rgb(43,168,74)",
+      "target-arrow-color" : "rgb(43,168,74)",
+      "source-arrow-color" : "rgb(43,168,74)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates']",
+    "css" : {
+      "line-color" : "rgb(219,76,64)",
+      "target-arrow-color" : "rgb(219,76,64)",
+      "source-arrow-color" : "rgb(219,76,64)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'predicted']",
+    "css" : {
+      "line-color" : "rgb(188,244,245)",
+      "target-arrow-color" : "rgb(188,244,245)",
+      "source-arrow-color" : "rgb(188,244,245)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'unknown']",
+    "css" : {
+      "line-color" : "rgb(153,153,153)",
+      "target-arrow-color" : "rgb(153,153,153)",
+      "source-arrow-color" : "rgb(153,153,153)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates quantity by expression']",
+    "css" : {
+      "line-color" : "rgb(43,168,74)",
+      "target-arrow-color" : "rgb(43,168,74)",
+      "source-arrow-color" : "rgb(43,168,74)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates quantity']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'form complex']",
+    "css" : {
+      "target-arrow-shape" : "none"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates activity']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates quantity by destabilization']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates quantity by repression']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates activity']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'unknown']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates quantity by expression']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[PROBABILITY > 1]",
+    "css" : {
+      "width" : 1.0
+    }
+  }, {
+    "selector" : "edge[PROBABILITY = 1]",
+    "css" : {
+      "width" : 5.365853658536586
+    }
+  }, {
+    "selector" : "edge[PROBABILITY > 0.02383274][PROBABILITY < 1]",
+    "css" : {
+      "width" : "mapData(PROBABILITY,0.02383274,1,0.785246895580757,5.365853658536586)"
+    }
+  }, {
+    "selector" : "edge[PROBABILITY = 0.02383274]",
+    "css" : {
+      "width" : 0.785246895580757
+    }
+  }, {
+    "selector" : "edge[PROBABILITY < 0.02383274]",
+    "css" : {
+      "width" : 1.0
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates quantity']",
+    "css" : {
+      "line-color" : "rgb(0,255,0)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'form complex']",
+    "css" : {
+      "line-color" : "rgb(255,0,255)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates activity']",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates quantity by destabilization']",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates quantity by repression']",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates activity']",
+    "css" : {
+      "line-color" : "rgb(0,255,0)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates']",
+    "css" : {
+      "line-color" : "rgb(0,255,0)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates']",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates quantity by expression']",
+    "css" : {
+      "line-color" : "rgb(0,255,0)"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+}

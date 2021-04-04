@@ -121,12 +121,12 @@
   }, {
     "selector" : "node[LOGP = 10.65]",
     "css" : {
-      "background-opacity" : 1.007843137254902
+      "background-opacity" : 1.0
     }
   }, {
     "selector" : "node[LOGP > -3.73][LOGP < 10.65]",
     "css" : {
-      "background-opacity" : "mapData(LOGP,-3.73,10.65,52,257)"
+      "background-opacity" : "mapData(LOGP,-3.73,10.65,0.52,0.752)"
     }
   }, {
     "selector" : "node[LOGP = -3.73]",

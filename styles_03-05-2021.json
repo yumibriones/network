@@ -526,6 +526,7 @@
       "font-weight" : "normal",
       "opacity" : 1.0,
       "color" : "rgb(0,0,0)"
+      "curve-style" : "bezier"
     }
   }, {
     "selector" : "edge[PROBABILITY > 1]",

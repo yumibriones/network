@@ -1,0 +1,404 @@
+[ {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.6.0",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "default_black",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "shape" : "rectangle",
+      "background-opacity" : 1.0,
+      "color" : "rgb(244,244,244)",
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
+      "width" : 125.0,
+      "border-opacity" : 1.0,
+      "font-size" : 30,
+      "height" : 125.0,
+      "border-width" : 1.0,
+      "text-opacity" : 1.0,
+      "border-color" : "rgb(204,204,204)",
+      "background-color" : "rgb(255,102,102)",
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "content" : "data(name)"
+    }
+  }, {
+    "selector" : "node[GI_absorption_A = 'High']",
+    "css" : {
+      "width" : 125.0,
+      "height" : 125.0
+    }
+  }, {
+    "selector" : "node[GI_absorption_A = 'Low']",
+    "css" : {
+      "width" : 80.0,
+      "height" : 80.0
+    }
+  }, {
+    "selector" : "node[Bioavailability_A = 0.56]",
+    "css" : {
+      "border-color" : "rgb(250,183,51)"
+    }
+  }, {
+    "selector" : "node[Bioavailability_A = 0.17]",
+    "css" : {
+      "border-color" : "rgb(255,78,17)"
+    }
+  }, {
+    "selector" : "node[Bioavailability_A = 0.85]",
+    "css" : {
+      "border-color" : "rgb(105,179,76)"
+    }
+  }, {
+    "selector" : "node[Bioavailability_A = 0.55]",
+    "css" : {
+      "border-color" : "rgb(255,142,21)"
+    }
+  }, {
+    "selector" : "node[Bioavailability_A = 0.11]",
+    "css" : {
+      "border-color" : "rgb(255,13,13)"
+    }
+  }, {
+    "selector" : "node[Type_A = 'protein']",
+    "css" : {
+      "border-width" : 0.0
+    }
+  }, {
+    "selector" : "node[Type_A = 'drug']",
+    "css" : {
+      "border-width" : 20.0
+    }
+  }, {
+    "selector" : "node[Type_A = 'phytochemical']",
+    "css" : {
+      "border-width" : 20.0
+    }
+  }, {
+    "selector" : "node[Type_A = 'protein']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[Type_A = 'phytochemical']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[Type_A = 'drug']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[Class_A = 'triterpenoid']",
+    "css" : {
+      "background-color" : "rgb(105,179,76)"
+    }
+  }, {
+    "selector" : "node[Class_A = 'other']",
+    "css" : {
+      "background-color" : "rgb(170,170,170)"
+    }
+  }, {
+    "selector" : "node[Class_A = 'triterpenoid aglycone']",
+    "css" : {
+      "background-color" : "rgb(5,140,66)"
+    }
+  }, {
+    "selector" : "node[Class_A = 'flavonoid aglycone']",
+    "css" : {
+      "background-color" : "rgb(255,146,1)"
+    }
+  }, {
+    "selector" : "node[Class_A = 'triterpene saponin']",
+    "css" : {
+      "background-color" : "rgb(60,90,20)"
+    }
+  }, {
+    "selector" : "node[Class_A = 'fatty acid']",
+    "css" : {
+      "background-color" : "rgb(12,118,131)"
+    }
+  }, {
+    "selector" : "node[Class_A = 'cucurbitane-type triterpenoid']",
+    "css" : {
+      "background-color" : "rgb(170,217,34)"
+    }
+  }, {
+    "selector" : "node[Class_A = 'flavonoid']",
+    "css" : {
+      "background-color" : "rgb(255,204,0)"
+    }
+  }, {
+    "selector" : "node[Class_A = 'triterpene glycoside']",
+    "css" : {
+      "background-color" : "rgb(179,239,178)"
+    }
+  }, {
+    "selector" : "node[Class_A = 'phenolic']",
+    "css" : {
+      "background-color" : "rgb(180,145,200)"
+    }
+  }, {
+    "selector" : "node[Class_A = 'drug']",
+    "css" : {
+      "background-color" : "rgb(0,168,232)"
+    }
+  }, {
+    "selector" : "node[LogP_A > 10.65]",
+    "css" : {
+      "background-opacity" : 0.00392156862745098
+    }
+  }, {
+    "selector" : "node[LogP_A = 10.65]",
+    "css" : {
+      "background-opacity" : 1.588235294117647
+    }
+  }, {
+    "selector" : "node[LogP_A > -3.73][LogP_A < 10.65]",
+    "css" : {
+      "background-opacity" : "mapData(LogP_A,-3.73,10.65,0.10,1)"
+    }
+  }, {
+    "selector" : "node[LogP_A = -3.73]",
+    "css" : {
+      "background-opacity" : 0.0392156862745098
+    }
+  }, {
+    "selector" : "node[LogP_A < -3.73]",
+    "css" : {
+      "background-opacity" : 0.00392156862745098
+    }
+  }, {
+    "selector" : "node[Cancer_function_B = '']",
+    "css" : {
+      "color" : "rgb(244,244,244)"
+    }
+  }, {
+    "selector" : "node[Cancer_function_B = 'Tumor suppressor']",
+    "css" : {
+      "color" : "rgb(0,102,0)"
+    }
+  }, {
+    "selector" : "node[Cancer_function_B = 'Oncogene protein']",
+    "css" : {
+      "color" : "rgb(153,0,0)"
+    }
+  }, {
+    "selector" : "node[Type_A = 'protein']",
+    "css" : {
+      "font-size" : 30
+    }
+  }, {
+    "selector" : "node[Type_A = 'phytochemical']",
+    "css" : {
+      "font-size" : 25
+    }
+  }, {
+    "selector" : "node[Type_A = 'drug']",
+    "css" : {
+      "font-size" : 25
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "source-arrow-shape" : "none",
+      "target-arrow-color" : "rgb(64,64,64)",
+      "font-family" : "Dialog.plain",
+      "font-weight" : "normal",
+      "target-arrow-shape" : "triangle",
+      "color" : "rgb(0,0,0)",
+      "line-color" : "rgb(64,64,64)",
+      "font-size" : 10,
+      "content" : "",
+      "source-arrow-color" : "rgb(64,64,64)",
+      "text-opacity" : 1.0,
+      "width" : 5.4,
+      "opacity" : 1.0,
+      "line-style" : "solid",
+	  "curve-style" : "bezier"
+    }
+  }, {
+    "selector" : "edge[Effect = 'down-regulates activity']",
+    "css" : {
+      "line-color" : "rgb(219,76,64)",
+      "target-arrow-color" : "rgb(219,76,64)",
+      "source-arrow-color" : "rgb(219,76,64)"
+    }
+  }, {
+    "selector" : "edge[Effect = 'glycoside-aglycone']",
+    "css" : {
+      "line-color" : "rgb(5,140,66)",
+      "target-arrow-color" : "rgb(5,140,66)",
+      "source-arrow-color" : "rgb(5,140,66)"
+    }
+  }, {
+    "selector" : "edge[Effect = 'up-regulates activity']",
+    "css" : {
+      "line-color" : "rgb(43,168,74)",
+      "target-arrow-color" : "rgb(43,168,74)",
+      "source-arrow-color" : "rgb(43,168,74)"
+    }
+  }, {
+    "selector" : "edge[Effect = 'up-regulates quantity by stabilization']",
+    "css" : {
+      "line-color" : "rgb(43,168,74)",
+      "target-arrow-color" : "rgb(43,168,74)",
+      "source-arrow-color" : "rgb(43,168,74)"
+    }
+  }, {
+    "selector" : "edge[Effect = 'up-regulates']",
+    "css" : {
+      "line-color" : "rgb(43,168,74)",
+      "target-arrow-color" : "rgb(43,168,74)",
+      "source-arrow-color" : "rgb(43,168,74)"
+    }
+  }, {
+    "selector" : "edge[Effect = 'down-regulates']",
+    "css" : {
+      "line-color" : "rgb(219,76,64)",
+      "target-arrow-color" : "rgb(219,76,64)",
+      "source-arrow-color" : "rgb(219,76,64)"
+    }
+  }, {
+    "selector" : "edge[Effect = 'predicted']",
+    "css" : {
+      "line-color" : "rgb(188,244,245)",
+      "target-arrow-color" : "rgb(188,244,245)",
+      "source-arrow-color" : "rgb(188,244,245)"
+    }
+  }, {
+    "selector" : "edge[Effect = 'unknown']",
+    "css" : {
+      "line-color" : "rgb(170,170,170)",
+      "target-arrow-color" : "rgb(170,170,170)",
+      "source-arrow-color" : "rgb(170,170,170)"
+    }
+  }, {
+    "selector" : "edge[Effect = 'down-regulates activity']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[Effect = 'glycoside-aglycone']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[Effect = 'up-regulates activity']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[Effect = 'up-regulates quantity by stabilization']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[Effect = 'up-regulates']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[Effect = 'down-regulates']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[Effect = 'predicted']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[Effect = 'unknown']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[Probability > 1]",
+    "css" : {
+      "width" : 1.0
+    }
+  }, {
+    "selector" : "edge[Probability = 1]",
+    "css" : {
+      "width" : 5.365853658536586
+    }
+  }, {
+    "selector" : "edge[Probability > 0.02383274][Probability < 1]",
+    "css" : {
+      "width" : "mapData(Probability,0.02383274,1,0.785246895580757,5.365853658536586)"
+    }
+  }, {
+    "selector" : "edge[Probability = 0.02383274]",
+    "css" : {
+      "width" : 0.785246895580757
+    }
+  }, {
+    "selector" : "edge[Probability < 0.02383274]",
+    "css" : {
+      "width" : 1.0
+    }
+  }, {
+    "selector" : "edge[Effect = 'glycoside-aglycone']",
+    "css" : {
+      "line-style" : "dashed"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates quantity']",
+    "css" : {
+      "line-color" : "rgb(0,255,0)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'form complex']",
+    "css" : {
+      "line-color" : "rgb(255,0,255)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates activity']",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates quantity by destabilization']",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates quantity by repression']",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates activity']",
+    "css" : {
+      "line-color" : "rgb(0,255,0)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates']",
+    "css" : {
+      "line-color" : "rgb(0,255,0)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'down-regulates']",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  }, {
+    "selector" : "edge[EFFECT = 'up-regulates quantity by expression']",
+    "css" : {
+      "line-color" : "rgb(0,255,0)"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+} ]

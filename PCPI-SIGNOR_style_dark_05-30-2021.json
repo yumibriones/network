@@ -1,4 +1,4 @@
-[ {
+{
   "format_version" : "1.0",
   "generated_by" : "cytoscape-3.6.0",
   "target_cytoscapejs_version" : "~2.1",
@@ -401,4 +401,4 @@
       "line-color" : "rgb(255,0,0)"
     }
   } ]
-} ]
+}
